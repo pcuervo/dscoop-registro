@@ -142,8 +142,8 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 						<div class="renglon clearfix">
 
 							<div class="span c-6">
-								<input class="span c-11" name="estado"type="text" data-validation="required">
-								<label class="span c-11" for="estado">Delegación / Municipio</label>
+								<input class="span c-11" name="del-mun"type="text" data-validation="required">
+								<label class="span c-11" for="del-mun">Delegación / Municipio</label>
 							</div><!-- span c-3 -->
 							<div class="span c-6">
 								<input class="span c-12" name="ciudad"type="text" data-validation="required">
@@ -268,7 +268,7 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 		$.validate();
 	</script>
    <?php 
-    	$msg = $_GET['registro'];
+    	$msg = isset( $_GET['registro'] ) ? $_GET['registro'] : -1;
 		if($msg == '1')
 			echo '<script>alert("¡Tus datos han sido registrados correctamente! Te llegará un correo a la dirección registrada.");</script>';	
 		else if($msg == '0')

@@ -1,9 +1,8 @@
 <?php
 	// Conectar con bd
-	$con=mysqli_connect("db515467882.db.1and1.com","dbo515467882","Registro@123","db515467882");
-	if (mysqli_connect_errno()){
-	  echo "Error, no se pudo conectar la base de datos: " . mysqli_connect_error();
-	}
+	// Conectar base de datos
+	include("ConectaBD.php");
+	
 	$query="SELECT F_Nombre, F_ApePat, F_ApeMat, F_Empresa, F_Telefono, F_Celular, F_Correo FROM TB_Usuario U INNER JOIN TB_Laboral L ON U.F_IdUsuario = L.F_IdUsuario";
 	$registros=mysqli_query($con, $query );
 

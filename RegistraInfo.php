@@ -1,7 +1,7 @@
 <?php
 	// Conectar base de datos
 	include("ConectaBD.php");
-	mysql_set_charset('utf8',$conn); 
+	//mysql_set_charset('utf8',$con); 
 	ini_set('display_errors', 'On');
 	
 	// Usuario
@@ -9,7 +9,6 @@
 	$apeP = $_POST['apellido-paterno'];
 	$apeM = $_POST['apellido-materno'];
 	$correo = $_POST['correo'];
-	$password = $_POST['password'];
 	$fecNac = $_POST['anio']. "-" . $_POST['mes'] . "-" .$_POST['dia']; 
 	$tel = $_POST['telefono'];
 	$cel = $_POST['celular'];

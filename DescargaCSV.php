@@ -1,10 +1,9 @@
 <?php
 	// Conectar con bd
-	$con=mysqli_connect("db515467882.db.1and1.com","dbo515467882","Registro@123","db515467882");
-	if (mysqli_connect_errno()){
-	  echo "Error, no se pudo conectar la base de datos: " . mysqli_connect_error();
-	} 
-	mysql_set_charset('utf8',$conn); 
+	// Conectar base de datos
+	include("ConectaBD.php");
+
+	//mysql_set_charset('utf8',$con); 
 
 	$archivo = 'registrados_etimex.csv';
 	header("Content-Type: text/csv;charset=UTF-8" );
