@@ -41,7 +41,7 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 					</div>
 
 					<div class="columna c-4 medium-12 small-12 right">
-						<a href="pdf/Agenda_Brand_Label_Etimex.pdf" class="boton columna c-11 medium-12 small-12" target="_blank">Descargar agenda</a>
+						<a href="pdf/Agenda_Brand_Label_Etimex.pdf" class="boton columna c-12" target="_blank">Descargar agenda</a>
 					</div>
 
 				</div><!-- width clearfix -->
@@ -53,12 +53,12 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 						<div class="renglon clearfix">
 
 							<div class="span c-6">
-								<input class="span c-12 primer_campo" name="nombre"type="text" data-validation="required">
-								<label class="span c-12" for="nombre">Nombre</label>
+								<input class="span c-11 primer_campo" name="nombre"type="text" data-validation="required">
+								<label class="span c-11" for="nombre">Nombre</label>
 							</div><!-- span c-6 -->
 							<div class="span c-3">
-								<input class="span c-12" name="apellido-paterno"type="text" data-validation="required">
-								<label class="span c-12" for="apellido-paterno">Apellido paterno</label>
+								<input class="span c-11" name="apellido-paterno"type="text" data-validation="required">
+								<label class="span c-11" for="apellido-paterno">Apellido paterno</label>
 							</div><!-- span c-3 -->
 							<div class="span c-3">
 								<input class="span c-12" name="apellido-materno"type="text">
@@ -70,12 +70,12 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 						<div class="renglon clearfix">
 
 							<div class="span c-4 medium-4 small-4">
-								<input class="span c-12 medium-12 small-12" name="correo" type="email" data-validation="email">
-								<label class="span c-12 medium-12 small-12" for="correo">Correo electrónico</label>
+								<input class="span c-11" name="correo" type="email" data-validation="email">
+								<label class="span c-11" for="correo">Correo electrónico</label>
 							</div><!-- span c-3 -->
 							<div class="span c-4 medium-4 small-4">
-								<input class="span c-12 medium-12 small-12" name="telefono" type="tel" data-validation="required">
-								<label class="span c-12 medium-12 small-12" for="telefono">Teléfono</label>
+								<input class="span c-11" name="telefono" type="tel" data-validation="required">
+								<label class="span c-11" for="telefono">Teléfono</label>
 							</div><!-- span c-3 -->
 							<div class="span c-4 medium-4 small-4">
 								<input class="span c-12 medium-12 small-12" name="celular" type="tel">
@@ -88,8 +88,8 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 						<div class="renglon clearfix">
 
 							<div class="span c-6">
-								<input class="span c-12" name="empresa"type="text" data-validation="required">
-								<label class="span c-12" for="empresa">Empresa</label>
+								<input class="span c-11" name="empresa"type="text" data-validation="required">
+								<label class="span c-11" for="empresa">Empresa</label>
 							</div><!-- span c-6 -->
 							<div class="span c-6">
 								<input class="span c-4" name="dia"type="text" value="dd" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
@@ -103,8 +103,8 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 						<div class="renglon clearfix">
 							
 							<div class="span c-6">
-								<input class="span c-12" name="giro"type="text" data-validation="required">
-								<label class="span c-12" for="giro">Giro</label>
+								<input class="span c-11" name="giro"type="text" data-validation="required">
+								<label class="span c-11" for="giro">Giro</label>
 							</div><!-- span c-3 -->
 							<div class="span c-6">
 								<input class="span c-12" name="cargo"type="text" data-validation="required">
@@ -116,8 +116,8 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 						<div class="renglon clearfix">
 							
 							<div class="span c-6">
-								<input class="span c-12" name="calle"type="text" data-validation="required">
-								<label class="span c-12" for="calle">Calle</label>
+								<input class="span c-11" name="calle"type="text" data-validation="required">
+								<label class="span c-11" for="calle">Calle</label>
 							</div><!-- span c-6 -->
 							<div class="span c-6">
 								<input class="span c-12" name="numero-exterior"type="text" data-validation="number">
@@ -129,8 +129,8 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 						<div class="renglon clearfix">
 
 							<div class="span c-6">
-								<input class="span c-12" name="numero-interior"type="text">
-								<label class="span c-12" for="numero-interior">Número interior</label>
+								<input class="span c-11" name="numero-interior"type="text">
+								<label class="span c-11" for="numero-interior">Número interior</label>
 							</div><!-- span c-3 -->
 							<div class="span c-6">
 								<input class="span c-12" name="colonia"type="text" data-validation="required">
@@ -142,8 +142,8 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 						<div class="renglon clearfix">
 
 							<div class="span c-6">
-								<input class="span c-12" name="estado"type="text" data-validation="required">
-								<label class="span c-12" for="estado">Delegación / Municipio</label>
+								<input class="span c-11" name="estado"type="text" data-validation="required">
+								<label class="span c-11" for="estado">Delegación / Municipio</label>
 							</div><!-- span c-3 -->
 							<div class="span c-6">
 								<input class="span c-12" name="ciudad"type="text" data-validation="required">
@@ -155,8 +155,8 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 						<div class="renglon clearfix">
 
 							<div class="span c-6">
-								<input class="span c-12" name="estado"type="text" data-validation="required">
-								<label class="span c-12" for="estado">Estado</label>
+								<input class="span c-11" name="estado"type="text" data-validation="required">
+								<label class="span c-11" for="estado">Estado</label>
 							</div><!-- span c-3 -->
 							<div class="span c-6">
 								<input class="span c-12" name="cp"type="text" data-validation="number">
@@ -231,7 +231,7 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 							</div>
 
 							<div class="columna c-3 medium-6 right">
-								<input class="boton columna c-11 medium-12 small-12" type="submit" value="enviar">
+								<input class="boton columna c-12 medium-12 small-12" type="submit" value="enviar">
 							</div>
 
 
