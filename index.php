@@ -180,7 +180,7 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 								<label class="columna c-10" for="">Invitación</label>
 							</div><!-- span c-3 -->
 							<div class="span c-3">
-								<input class="columna c-2" type="radio" name="enteraste" value="espectacular">
+								<input class="columna c-2" type="radio" name="enteraste" value="expografica">
 								<label class="columna c-10" for="">Expográfica</label>
 							</div><!-- span c-3 -->
 							<div class="span c-3">

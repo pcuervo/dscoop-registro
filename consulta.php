@@ -28,8 +28,8 @@
 
 				<div class="width clearfix">
 
-					<h1 class="columna c-10" >Registro Brand Label Etimex</h1>
-					<img class="span c-2 right" src="images/etimex-logo.jpg" alt="">
+					<img class="columna c-3 small-5 medium-5" src="images/dscoop-event-logo.png" alt="">
+					<img class="columna c-3 right medium-5 small-5" src="images/dscoop-hp-logo.png" alt="">
 
 				</div><!-- width clearfix -->
 
