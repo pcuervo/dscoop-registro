@@ -5,7 +5,7 @@
 
 	//mysql_set_charset('utf8',$con); 
 
-	$archivo = 'registrados_etimex.csv';
+	$archivo = 'registrados_dscoop.csv';
 	header("Content-Type: text/csv;charset=UTF-8" );
 	
 	$handle = fopen($archivo, 'w');
