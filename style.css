@@ -315,19 +315,19 @@ figure {
 /*** FONTFACE ***/
 @font-face {
   font-family: 'dscoop';
-  src: url('fonts/neosansintel-light.eot');
-  src: url('fonts/neosansintel-light.eot?#iefix') format('embedded-opentype'), 
-	   url('fonts/neosansintel-light.woff') format('woff'), 
-	   url('fonts/neosansintel-light.ttf') format('truetype'), 
-	   url('fonts/neosansintel-light.svg#neosansintel-light') format('svg');
+  src: url('fonts/dinpro-regular.eot');
+  src: url('fonts/dinpro-regular.eot?#iefix') format('embedded-opentype'), 
+	   url('fonts/dinpro-regular.woff') format('woff'), 
+	   url('fonts/dinpro-regular.ttf') format('truetype'), 
+	   url('fonts/dinpro-regular.svg#dinpro-regular') format('svg');
 }
 @font-face {
   font-family: 'dscoop bold';
-  src: url('fonts/neosansintel-medium.eot');
-  src: url('fonts/neosansintel-medium.eot?#iefix') format('embedded-opentype'),
-	   url('fonts/neosansintel-medium.woff') format('woff'),
-	   url('fonts/neosansintel-medium.ttf') format('truetype'),
-	   url('fonts/neosansintel-medium.svg#neosansintel-medium') format('svg');
+  src: url('fonts/dinpro-bold.eot');
+  src: url('fonts/dinpro-bold?#iefix') format('embedded-opentype'),
+	   url('fonts/dinpro-bold.woff') format('woff'),
+	   url('fonts/dinpro-bold.ttf') format('truetype'),
+	   url('fonts/dinpro-bold.svg#dinpro-bold') format('svg');
 }
 /*** VARIABLES ***/
 /*** MIXINS ***/
@@ -586,11 +586,11 @@ header {
 }
 /* line 222, style.less */
 h1 {
-  font: 26px / 32px 'dscoop bold';
+  font: 30px / 32px 'dscoop bold';
 }
 /* line 224, style.less */
 h2 {
-  font: 20px / 20px 'dscoop bold';
+  font: 18px / 20px 'dscoop';
 }
 /* line 226, style.less */
 h3 {
