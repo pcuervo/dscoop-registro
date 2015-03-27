@@ -67,32 +67,32 @@
 		// destinatario
 		$para  = $correo;
 		// subject
-		$folio = intval($idUsuario) + 50;
-		$titulo = '#'.$folio.' Gracias '.$nombre.' por registrarte en el BrandLabel Etimex';
+		$folio = intval($idUsuario);
+		$titulo = '#'.$folio.' Gracias '.$nombre.' por registrarte en la Primera edición del Dscoop Day MX';
 	
 	// message
 		$mensaje = '
 		<html>
 		<head>
-			<title>Etimex</title>
+			<title>Dscoop - Evoución Digital México 2015</title>
 		</head>
 		<body>
 			  <p>Número de registro: '.$folio.'</p>
 			  <p>Hola '.$nombre.',</p>
-			  <p>Se han registrado correctamente tus datos para asistir al evento Brand Label Etimex el Martes 18 de Marzo a las 8:30am en Cintermex en Monterrey.<p>
+			  <p>Se han registrado correctamente tus datos para asistir a la Primera edición del Dscoop Day MX que se llevará a cabo en el Centro Banamex Salón Valparaíso I el día 14 de mayo a las 8:30 am.<p>
 			  <p>Por favor presenta este correo como confirmación de asistencia el día del evento.</p>
-			  <p>Cualquier duda, favor de comunicarse al (81) 8479 0800.</p>
+			  <p>Cualquier duda, favor de comunicarse al (55) 1450 9460.</p>
 			  <p>¡Te esperamos!</p>
 			  <p>Atentamente,</p>
-			  <p>El equipo de Etimex y HP Indigo</p>
+			  <p>El equipo de Dscoop México</p>
 		</body>
 		</html>';
 	
 		// Para enviar un correo HTML mail, la cabecera Content-type debe fijarse
 		$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
 		$cabeceras .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-		$cabeceras .= 'From: Evento Etimex <info@etimex.com>' . "\r\n";
-		$cabeceras .= "Reply-To: guillermo@litobel.com\r\n";
+		$cabeceras .= 'From: Información Dscoop MX <info@dscoopmx.com>' . "\r\n";
+		$cabeceras .= "Reply-To: info@dscoopmx.com\r\n";
 	
 		
 		// Mail it
