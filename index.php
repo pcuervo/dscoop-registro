@@ -225,10 +225,10 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 
 						<div class="renglon clearfix acepto">
 
-							<div class="columna c-4 medium-6">
+							<!-- <div class="columna c-4 medium-6">
 								<input type="checkbox" name="mas-info" value="1" checked> Deseo recibir más información<br />
 								<a href="pdf/Aviso_de_Privacidad_Etimex.pdf" target="_blank">Consulte la política de privacidad</a>
-							</div>
+							</div> -->
 
 							<div class="columna c-3 medium-6 right">
 								<input class="boton columna c-12 medium-12 small-12" type="submit" value="enviar">
