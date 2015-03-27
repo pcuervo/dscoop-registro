@@ -41,7 +41,7 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 					</div>
 
 					<div class="columna c-4 medium-12 small-12 right">
-						<a href="pdf/Agenda_Brand_Label_Etimex.pdf" class="boton columna c-12" target="_blank">Descargar agenda</a>
+						<a href="pdf/Agenda_Dscoop_Day_Mx.pdf" class="boton columna c-12" target="_blank">Descargar agenda</a>
 					</div>
 
 				</div><!-- width clearfix -->
@@ -175,17 +175,21 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 
 						<div class="renglon clearfix">
 
-							<div class="span c-3">
+							<div class="span c-2">
 								<input class="columna c-2" type="radio" name="enteraste" value="invitacion">
 								<label class="columna c-10" for="">Invitación</label>
 							</div><!-- span c-3 -->
-							<div class="span c-3">
+							<div class="span c-2">
 								<input class="columna c-2" type="radio" name="enteraste" value="expografica">
 								<label class="columna c-10" for="">Expográfica</label>
 							</div><!-- span c-3 -->
-							<div class="span c-3">
+							<div class="span c-2">
 								<input class="columna c-2" type="radio" name="enteraste" value="correo electrónico">
 								<label class="columna c-10" for="">Correo electrónico</label>
+							</div><!-- span c-3 -->
+							<div class="span c-2">
+								<input class="columna c-2" type="radio" name="enteraste" value="no aplica">
+								<label class="columna c-10" for="">No Aplica</label>
 							</div><!-- span c-3 -->
 							<div class="columna c-1">
 								<input class="columna c-4" type="radio" name="enteraste" value="otro">
@@ -217,6 +221,7 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
                                     <option value="Correo directo y Trans Promo">Correo directo y Trans Promo</option>
                                     <option value="Especialidad de fotografía">Especialidad de fotografía</option>
                                     <option value="Editorial">Editorial</option>
+									<option value="No aplica">No aplica</option>
                                 </select>
 								
 							</div><!-- span c-12 -->
@@ -227,7 +232,7 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 
 							<div class="columna c-4 medium-6">
 								<input type="checkbox" name="mas-info" value="1" checked> Deseo recibir más información<br />
-								<a href="pdf/Aviso_de_Privacidad_Etimex.pdf" target="_blank">Consulte la política de privacidad</a>
+								<a href="http://dscoop.org/p/cm/ld/fid=2" target="_blank">Consulte la política de privacidad</a>
 							</div>
 
 							<div class="columna c-3 medium-6 right">
@@ -262,7 +267,7 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 	</body>
 
 	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-    <script src="js/etimex.js"></script>
+    <script src="js/dscoop.js"></script>
     <script src="js/jquery.form-validator.min.js"></script>
     <script>
 		$.validate();

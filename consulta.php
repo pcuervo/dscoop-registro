@@ -4,11 +4,11 @@
 		if(empty($id)) 
 			header('Location: login.html ');
 		else {
-    ?>
+?>
 <!doctype html>
 	<head>
 		<meta charset="utf-8">
-		<title>Etimex</title>
+		<title>Dscoop - Evolución Digital 2015</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<meta name="description" content="">
@@ -56,7 +56,7 @@
 	</body>
 
 	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-    <script src="etimex.js"></script>
+    <script src="dscoop.js"></script>
     <script type="text/javascript">
 		$(document).ready(function(e) {
             $.ajax({    //create an ajax request to load_page.php
