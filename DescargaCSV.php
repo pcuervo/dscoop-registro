@@ -16,7 +16,7 @@
 	 
 	while($results = mysqli_fetch_array($sql)) {
 		$results[24] == '1' ? $masInfo = 'si' : $masInfo = 'no';
-		$folio = intval($results[0]) + 50;
+		$folio = intval($results[0]);
 		$row = array(	
 			$folio,		
 			utf8_decode($results[1]),
