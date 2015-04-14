@@ -67,8 +67,7 @@
 		// destinatario
 		$para  = $correo;
 		// subject
-		$folio = intval($idUsuario);
-		$titulo = '#'.$folio.' Gracias '.$nombre.' por registrarte en la Primera edición del Dscoop Day MX';
+		$titulo = 'Gracias '.$nombre.' por registrarte en la Primera edición del Dscoop Day MX';
 	
 	// message
 		$mensaje = '
