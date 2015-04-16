@@ -79,7 +79,7 @@
 			  
 			  <p>Hola '.$nombre.',</p>
 			  <p>Se han registrado correctamente tus datos para asistir a la Primera edición del Dscoop Day MX que se llevará a cabo en el Centro Banamex Salón Valparaíso I el día 14 de mayo a las 8:30 am.<p>
-			  <p>En breve nos comunicaremos contigo para informarte acerca de los costos y medios de pago. Te informamos que tu registro te da acceso a Expográfica 2015, del 12 al 15 de mayo, puedes recoger tu gafete en al área de registro VIP.</p>
+			  <p>En breve nos comunicaremos contigo para informarte acerca de los costos y medios de pago. Te informamos que tu registro te da acceso a EXPOGRÁFICA 2015, del 12 al 15 de mayo, puedes recoger tu gafete en al área de registro VIP.</p>
 			  <p>Cualquier duda, favor de comunicarse al (55) 1450 9460 Ext. 100</p>
 			  <p>¡Te esperamos!</p>
 			  <p>Atentamente,</p>

@@ -234,7 +234,13 @@ A través de sus conferencias anuales, Dscoop permite acercar negocios de todo e
 							
 							
 							<div class="columna c-8 medium-8 small-12 renglon">
-								Al registrar mis datos, acepto que EXPOGRÁFICA me mantenga informado(a) sobre sus actividades e información relevante. Para revisar el aviso de privacidad, <a href="http://dscoop.org/p/cm/ld/fid=2" target="_blank">haz click aquí</a>.
+								Al registrar mis datos, acepto que EXPOGRÁFICA me mantenga informado(a) sobre sus actividades e información relevante. 
+							</div>
+							<div class="columna c-8 medium-8 small-12 renglon">
+								Para revisar el aviso de privacidad de Dscoop, <a href="http://dscoop.org/p/cm/ld/fid=2" target="_blank">haz click aquí</a>.
+							</div>
+							<div class="columna c-8 medium-8 small-12 renglon">
+								Para revisar el aviso de privacidad de ANIDIGRAF, <a href="http://www.anidigraf.com.mx/aviso/aviso_de_privacidad.pdf" target="_blank">haz click aquí</a>.
 							</div>
 							
 							<div class="columna c-3 medium-4 right small-12 renglon">
